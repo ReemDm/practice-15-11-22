@@ -1,0 +1,89 @@
+/* fonts */
+@font-face {
+    font-family: 'Gotham Pro';
+    src: local('Gotham Pro Regular'), local('Gotham-Pro-Regular'),
+        url('../fonts/gothampro400/GothamPro.woff2') format('woff2'),
+        url('../fonts/gothampro400/GothamPro.woff') format('woff'),
+        url('../fonts/gothampro400/GothamPro.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Gotham Pro';
+    src: local('Gotham Pro Medium'), local('Gotham-Pro-Medium'),
+        url('../fonts/gothampro500/GothamPro-Medium.woff2') format('woff2'),
+        url('../fonts/gothampro500/GothamPro-Medium.woff') format('woff'),
+        url('../fonts/gothampro500/GothamPro-Medium.tt5') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Gotham Pro';
+    src: local('Gotham Pro Bold'), local('Gotham-Pro-Bold'),
+        url('../fonts/gothampro700/GothamPro-Bold.woff2') format('woff2'),
+        url('../fonts/gothampro700/GothamPro-Bold.woff') format('woff'),
+        url('../fonts/gothampro700/GothamPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* main */
+/* header */
+.header {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+}
+/* top header */
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+.contact-tel {
+    font-family: 'Gotham Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #243976;
+    line-height: 118.2%;
+}
+.button-sign-up-in-lesson {
+    background: linear-gradient(272.77deg, #864FF1 0%, #49B3F7 100%);
+    box-shadow: 0px 6px 21px rgba(104, 130, 245, 0.67);
+    border-radius: 90px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 118.2%;
+    letter-spacing: 0.125em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 21px 31px;
+}
+.contact-top-header {
+    gap: 0 30px;
+}
+/* bottom header */
+.buttom-header {
+    margin-top: 15px;
+    background: url(../assets/vectors/header-line.svg) top center no-repeat;
+}
+.nav-bottom-header-link {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 118%;
+    text-align: center;
+    color: #243976;
+}
+.my-account-text {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 118.2%;
+    color: #243976;
+    margin-left: 9.5px;
+}
