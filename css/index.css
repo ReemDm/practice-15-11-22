@@ -26,12 +26,27 @@
     font-weight: 700;
     font-style: normal;
 }
+@font-face {
+    font-family: 'ALS Schlange Sans';
+    src: local('ALS Schlange Sans Bold'), local('ALS-Schlange-Sans-Bold'),
+        url('../fonts/ALSSchlangeSans700/ALSSchlangesans-Bold.woff2') format('woff2'),
+        url('../fonts/ALSSchlangeSans700/ALSSchlangesans-Bold.woff') format('woff'),
+        url('../fonts/ALSSchlangeSans700/ALSSchlangesans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
 
 /* main */
-/* header */
-.header {
+.start-page-header, .main-start-page {
     max-width: 1200px;
     margin: auto;
+}
+.start-page-bg-lenuar {
+    background: linear-gradient(180deg, #FFFFFF 0%, #EEF1FD 100%);
+    padding-bottom: 65px;
+}
+/* header */
+.header {
     margin-top: 10px;
 }
 /* top header */
@@ -78,6 +93,9 @@
     text-align: center;
     color: #243976;
 }
+.my-account:hover {
+    cursor: pointer;
+}
 .my-account-text {
     font-family: 'Gotham Pro';
     font-style: normal;
@@ -86,4 +104,82 @@
     line-height: 118.2%;
     color: #243976;
     margin-left: 9.5px;
+}
+/* buttons header */
+.button-choose-form {
+    background: linear-gradient(272.77deg, #864FF1 0%, #49B3F7 100%);
+    border-radius: 25px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 118.2%;
+    color: #FFFFFF;
+    padding: 8px 30px;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+.button-choose-form-active {
+    padding: 13px 31px;
+    position: relative;}
+
+/* start page wrapper */
+.wrapper-start-page {
+    background: url(../assets/bg/pic_main.png) bottom right no-repeat;
+}
+.wrapper-text-elem {  
+    width: 700px;
+    margin-top: 20px;
+}
+.wrapper-start-page-heading {
+    font-family: 'ALS Schlange Sans';
+    font-weight: 700px;
+    font-size: 84px;
+    line-height: 103.2%;
+    color: #243976;
+}
+.start-page-heading-blue-heading {
+    color: #49B3F7;
+}
+.discription-wrapper-start-page {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 165.2%;
+    color: #243976;
+    width: 500px;
+}
+.bold-discription {
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 30px;
+}
+.button-start-page {
+    margin-top: 37px;
+    padding: 27px 43px;
+    background: linear-gradient(272.77deg, #864FF1 0%, #49B3F7 100%);
+    box-shadow: 0px 6px 21px rgba(104, 130, 245, 0.67);
+    border-radius: 90px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 118.2%;
+    text-align: center;
+    letter-spacing: 0.125em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.contact-soc-site {
+    margin-top: 15px;
+    align-items: center;
+}
+.or-write-text {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 165.2%;
+    color: #737373;
 }
