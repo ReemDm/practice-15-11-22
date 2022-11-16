@@ -37,7 +37,7 @@
   }
 
 /* main */
-.start-page-header, .main-start-page {
+.start-page-header, .main-start-page, .answer-quastion-section {
     max-width: 1200px;
     margin: auto;
 }
@@ -182,4 +182,80 @@
     font-size: 17px;
     line-height: 165.2%;
     color: #737373;
+}
+/* answer quastion section */
+.answer-quastion-section {
+    margin-top: 60px;
+}
+/* answer article */
+.h2-anwer-quastion {
+    font-family: 'ALS Schlange Sans';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 103.2%;
+    text-align: center;
+    color: #243976;
+}
+.list-reasons-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 61px;
+}
+.reasons-card {
+    width: 180px;
+    text-align: center;
+    margin-right: 80px;
+}
+.discription-reasons-card {
+    margin-top: 32px;
+    display: inline-block;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #243976;
+}
+/* aside */
+.aside-form {
+    position: relative;
+    height: 340px;
+}
+.img-aside {
+    display: block;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    z-index: 1;
+}
+.aside-text h3 {
+    font-family: 'ALS Schlange Sans';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 103.2%;
+    color: #243976;
+    width: 530px;
+}
+.aside-for-first-mounth {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #EFF2FD;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    justify-content: flex-end;
+    gap: 0 35px;
+}
+.aside-text p {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #243976;
+    width: 520px;
 }
