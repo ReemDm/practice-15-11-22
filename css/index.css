@@ -259,3 +259,57 @@
     color: #243976;
     width: 520px;
 }
+/* article when spend lesson */
+.when-spend-lesson {
+    margin-top: 80px;
+}
+.horizontal-cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px 20px;
+    background: url(../assets/vectors/weeeb.svg) center no-repeat;
+}
+.horizontal-card {
+    height: 227px;
+    width: 590px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.horizontal-card p {
+    position: absolute;
+    width: 310px;
+    display: inline-block;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+}
+.horizontal-card-top {
+    right: 0;
+}
+.heading-horizontal-card {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 103%;
+    text-align: center;
+    color: #243976;
+}
+.discription-horizontal-card {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 157%;
+    color: #243976;
+}
+.bg-first-hor-card {
+    background: url(../assets/preview-card/first-card-horizontal-img.svg) top left no-repeat;
+}
+.bg-second-hor-card {
+    background: url(../assets/preview-card/second-card-horizontal-img.svg) center left no-repeat;
+}
+.bg-third-hor-card {
+    background: url(../assets/preview-card/third-card-horizontal-img.svg) center right no-repeat;
+}
+.bg-forth-hor-card {
+    background: url(../assets/preview-card/forth-card-horizontal-img.svg) center right no-repeat;
+}
