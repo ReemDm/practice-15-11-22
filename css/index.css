@@ -37,12 +37,12 @@
   }
 
 /* main */
-.start-page-header, .main-start-page, .answer-quastion-section {
+.start-page-header, .main-start-page, .who-is-online-educition, .aside-form, .when-spend-lesson, .what-studens-like-us {
     max-width: 1200px;
     margin: auto;
 }
-.start-page-bg-lenuar {
-    background: linear-gradient(180deg, #FFFFFF 0%, #EEF1FD 100%);
+.bg-lenuar {
+    background: linear-gradient(#FFFFFF 0%, #EEF1FD 100%);
     padding-bottom: 65px;
 }
 /* header */
@@ -175,6 +175,7 @@
 .contact-soc-site {
     margin-top: 15px;
     align-items: center;
+    cursor: pointer;
 }
 .or-write-text {
     font-family: 'Gotham Pro';
@@ -184,6 +185,16 @@
     line-height: 165.2%;
     color: #737373;
 }
+.soc-site-img {
+    transition: transform 300ms;
+}
+.soc-site-img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.soc-site-img:active {
+    transform: scale(0.9);
+} 
 /* answer quastion section */
 .answer-quastion-section {
     margin-top: 60px;
@@ -289,14 +300,13 @@
 .horizontal-card-top {
     right: 0;
 }
-.heading-horizontal-card {
+.heading-card {
     font-weight: 500;
     font-size: 20px;
     line-height: 103%;
-    text-align: center;
     color: #243976;
 }
-.discription-horizontal-card {
+.discription-card {
     font-weight: 400;
     font-size: 15px;
     line-height: 157%;
@@ -314,3 +324,36 @@
 .bg-forth-hor-card {
     background: url(../assets/preview-card/forth-card-horizontal-img.svg) center right no-repeat;
 }
+/* article what students like us*/
+.bg-lenuar-second-block {
+    background: #EFF2FD;
+    padding: 55px 0;
+}
+.what-studens-like-us {
+    background: url(../assets/bg/what\ srudent\ like\ us.svg) no-repeat;
+    background-position: right 30% ;
+}
+.what-studens-like-us h2 {
+    text-align: left;
+}
+.reasons-list-conteiner {
+    width: 520px;
+    margin-top: 55px;
+}
+.reasons-blocks {
+    padding: 13px 36px 13px 20px;
+    transition: all 500ms;
+    margin-top: 20px;
+}
+.reasons-blocks:hover {
+    background: #FFFFFF;
+    box-shadow: 5px 15px 40px rgba(30, 35, 66, 0.15);
+    border-radius: 25px;
+    cursor: pointer;
+}
+/* .reasons-blocks h3:hover {
+    background: linear-gradient(272.77deg, #864FF1 0%, #49B3F7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+} */
