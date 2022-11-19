@@ -105,6 +105,9 @@
     color: #243976;
     margin-left: 9.5px;
 }
+.my-account-text:hover {
+    color: #486edf;
+}
 /* buttons header */
 .button-choose-form {
     background: linear-gradient(272.77deg, #864FF1 0%, #49B3F7 100%);
@@ -357,3 +360,80 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 } */
+/* comparison  */
+
+.main-comparison {
+    margin: 80px 0;
+}
+.bg-comparison {
+    background: url(../assets/bg/simple\ school.svg) center left no-repeat, url(../assets/bg/online\ school.svg) center right no-repeat;
+    max-width: 1400px;
+    margin: 0px auto;
+}
+.cards-comparison {
+    position: relative;
+    width: 690px;
+    height: 500px;
+    margin: 60px auto 0;
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.card-comparison {
+    border-radius: 15px;
+    position: absolute;
+}
+.simple-school {
+    background: linear-gradient(180deg, #EFF2FD 0%, #FCFCFC 100%);
+    left: 0;
+    padding: 40px 60px;
+    width: 360px;
+    height: 470px;
+}
+.online-school {
+    background: linear-gradient(26.5deg, #4271DF 16.72%, #789CF1 95.45%);
+    right: 0;
+    padding: 40px 70px;
+    width: 376px;
+    height: 490px;
+}
+.card-comparison h3 {
+    font-size: 32px;
+    line-height: 103.2%;
+    font-family: 'ALS Schlange Sans';
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.simple-school h3 {
+    font-style: 34px;
+    color: #243976;
+}
+.online-school h3 {
+    color: #FFFFFF;
+}
+.card-comparison ul {
+    list-style-type: none;
+    padding: 0;
+}
+.card-comparison ul li {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    margin-bottom: 12px;
+}
+.li, .bold-li {
+    margin-left: 30px;
+}
+.simple-school ul li {
+    background: url(../assets/vectors/blue\ ellipse.svg) center left no-repeat;
+    color: #243976;
+}
+.online-school ul li {
+    background: url(../assets/vectors/white\ ellipse.svg) center left no-repeat; 
+    color: #FFFFFF;
+}
+.bold-li {
+    font-weight: 700;
+}
