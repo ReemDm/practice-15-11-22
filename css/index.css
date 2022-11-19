@@ -37,7 +37,7 @@
   }
 
 /* main */
-.start-page-header, .main-start-page, .who-is-online-educition, .aside-form, .when-spend-lesson, .what-studens-like-us {
+.start-page-header, .main-start-page, .who-is-online-educition, .aside-form, .when-spend-lesson, .what-studens-like-us, .descrition-online-school {
     max-width: 1200px;
     margin: auto;
 }
@@ -436,4 +436,22 @@
 }
 .bold-li {
     font-weight: 700;
+}
+/* discription online school */
+.cards-discription-conteiner {
+    margin: 60px 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px 60px;
+    justify-content: center;
+}
+.card-discription-school {
+    background: url(../assets/bg/ellipse-bg.svg) 45% 0% no-repeat;
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-discription-school p, .card-discription-school h3 {
+    text-align: center;
 }
