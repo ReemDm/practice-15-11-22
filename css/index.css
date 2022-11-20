@@ -439,6 +439,11 @@
     font-weight: 700;
 }
 /* discription online school */
+.bg-price-article {
+    margin-top: 80px;
+    background: #EFF2FD;
+    padding: 60px 0 100px;
+}
 .cards-discription-conteiner {
     margin: 60px 0 15px;
     display: flex;
@@ -455,4 +460,115 @@
 }
 .card-discription-school p, .card-discription-school h3 {
     text-align: center;
+}
+/* price */
+.price-article {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.cards-price-conteiner {
+    display: flex;
+    justify-content: space-between;
+}
+.card-conteiner {
+    height: 585px;
+    width: 345px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    position: relative;
+}
+.price-div {
+    padding: 25px 35px;
+    background: linear-gradient(272.77deg, #864FF1 0%, #49B3F7 100%);
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    width: 270px;
+    position: absolute;
+    top: 30px;
+    right: 58px;
+    z-index: 1;
+}
+.discription-class-conteriner {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px 25px 0px 50px;
+    padding: 50px 40px 25px 35px;
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.school-student-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.price-text {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 141%;
+    text-align: center;
+    background: linear-gradient(180deg, #FFFFFF 0%, #EBF8F8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.in-mouth {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 141.7%;
+    text-align: center;
+    color: #E9E8FA;
+}
+.school-classes {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 103.2%;
+    color: #243976;
+}
+.discription-class {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 103.2%;
+    background: linear-gradient(26.5deg, #4271DF 16.72%, #789CF1 95.45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.discription-class-conteriner ul {
+    padding: 0;
+    list-style-type: none;
+    width: 200px;
+}
+.discription-class-conteriner ul li {
+    margin-bottom: 20px;
+    background: url(../assets/vectors/check-mark.svg) center left no-repeat;
+}
+.discription-class-conteriner ul li span {
+    display: inline-block;
+    margin-left: 32px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 103.2%;
+    color: #243976;
+}
+.button-price-card-div {
+    padding-left: 10px;
+}
+.button-price-card {
+    background: linear-gradient(26.5deg, #4271DF 16.72%, #789CF1 95.45%);
+    box-shadow: 0px 4px 20px #648CEB;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 6px 40px;
+}
+.button-price-card span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #EBF8F8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
