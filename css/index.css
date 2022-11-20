@@ -589,3 +589,83 @@
     font-size: 20px;
     line-height: 103.2%;
 }
+/* review card */
+.reviews {
+    background: url(../assets/bg/bg-review.svg) 60% 35% no-repeat;
+}
+.card-review-contiener {
+    width: 100%;
+    overflow: hidden;
+}
+.card-review-contiener, .card-review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-review-contiener {
+    margin: 200px 0;
+    gap: 0 100px;
+}
+.card-review {
+    background: url(../assets/bg/message.svg) 90% center no-repeat, #FFFFFF;
+    width: 620px;
+    box-shadow: 14px 22px 40px rgba(30, 35, 66, 0.28);
+    border-radius: 20px;
+    padding: 30px;
+}
+.vk-review-card {
+    border: 5px solid #4C75A3;
+}
+.instagram-review-card {
+    border: 5px solid #a34c97;
+}
+.auther-review {
+    width: 250px;
+}
+.logo-soc-site-auther {
+    margin-bottom: 30px;
+}
+.auther-review-text {
+    margin-bottom: 10px;
+    font-family: 'ALS Schlange Sans';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 100%;
+    color: #243976;
+}
+.auther-discription {
+    margin-bottom: 18px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    color: #243976;
+}
+.auther-soc-site-link {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-decoration-line: underline;
+    background: linear-gradient(26.5deg, #4271DF 16.72%, #789CF1 95.45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.review-text {
+    width: 340px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #243976;
+}
+.review-arrow-button-contiener {
+    text-align: center;
+}
+.review-arrow-button {
+    cursor: pointer;
+}
