@@ -37,7 +37,7 @@
   }
 
 /* main */
-.start-page-header, .main-start-page, .who-is-online-educition, .aside-form, .when-spend-lesson, .what-studens-like-us, .descrition-online-school, .license {
+.start-page-header, .main-start-page, .who-is-online-educition, .aside-form, .when-spend-lesson, .what-studens-like-us, .descrition-online-school, .license, .answer {
     max-width: 1200px;
     margin: auto;
 }
@@ -603,7 +603,7 @@
     justify-content: center;
 }
 .card-review-contiener {
-    margin: 200px 0;
+    padding: 200px 0;
     gap: 0 100px;
 }
 .card-review {
@@ -668,4 +668,58 @@
 }
 .review-arrow-button {
     cursor: pointer;
+}
+/* answer question */
+.answers-to-questions-section {
+    margin-top: 80px;
+}
+.answer-block {
+    background: #EFF2FD;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+.open-answer {
+    border-left: 25px solid #243976;
+}
+.answer-heading-div {
+    padding: 45px 50px 40px 35px;
+}
+.text-answer {
+    padding: 40px 160px 190px 35px;
+}
+.answer-heading-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading-answer {
+    font-family: 'ALS Schlange Sans';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    color: #243976;
+}
+.p-text-answer, .ul-text-answer {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #243976;
+}
+.p-text-answer {
+    margin-bottom: 20px;
+}
+.bold-text-answer {
+    font-weight: 700;
+}
+.button-answer {
+    cursor: pointer;
+}
+.close-answer {
+    padding: 35px 50px 35px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
