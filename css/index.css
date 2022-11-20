@@ -37,7 +37,7 @@
   }
 
 /* main */
-.start-page-header, .main-start-page, .who-is-online-educition, .aside-form, .when-spend-lesson, .what-studens-like-us, .descrition-online-school {
+.start-page-header, .main-start-page, .who-is-online-educition, .aside-form, .when-spend-lesson, .what-studens-like-us, .descrition-online-school, .license {
     max-width: 1200px;
     margin: auto;
 }
@@ -439,11 +439,6 @@
     font-weight: 700;
 }
 /* discription online school */
-.bg-price-article {
-    margin-top: 80px;
-    background: #EFF2FD;
-    padding: 60px 0 100px;
-}
 .cards-discription-conteiner {
     margin: 60px 0 15px;
     display: flex;
@@ -462,6 +457,11 @@
     text-align: center;
 }
 /* price */
+.bg-price-article {
+    margin-top: 80px;
+    background: #EFF2FD;
+    padding: 60px 0 100px;
+}
 .price-article {
     max-width: 1200px;
     margin: 0 auto;
@@ -571,4 +571,21 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+/* license */
+.license {
+    background: url(../assets/certificate.svg) center right no-repeat;
+    padding: 80px 0 80px;
+}
+.license-text h2 {
+    text-align: left;
+    margin-top: 10px;
+}
+.license-text {
+    width: 440px;
+    margin-top: 60px;
+}
+.license-text p {
+    font-size: 20px;
+    line-height: 103.2%;
 }
