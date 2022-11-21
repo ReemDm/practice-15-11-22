@@ -37,7 +37,7 @@
   }
 
 /* main */
-.start-page-header, .main-start-page, .who-is-online-educition, .aside-form, .when-spend-lesson, .what-studens-like-us, .descrition-online-school, .license, .answer, .contact-article {
+.start-page-header, .main-start-page, .who-is-online-educition, .aside-form, .when-spend-lesson, .what-studens-like-us, .descrition-online-school, .license, .answer, .contact-article, .footer-conteiner {
     max-width: 1200px;
     margin: auto;
 }
@@ -816,4 +816,60 @@
     font-size: 20px;
     line-height: 103.2%;
     color: #243976;
+}
+/* footer */
+.footer {
+    margin-top: 100px;
+    background: #EFF2FD;
+    padding: 50px 0;
+}
+.footer-conteiner {
+    gap: 0 50px;
+}
+.logo-footer {
+    width: 236px;
+}
+.copyright-text {
+    padding-top: 50px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 203.2%;
+    color: #9299AF;
+}
+.nav-footer ul {
+    padding: 0;
+}
+.nav-footer ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.nav-footer ul li a {
+    color: #243976;
+    text-decoration: none;
+}
+.footer-heading {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 103%;
+    color: #243976;
+    margin-bottom: 20px;
+}
+.text-footer {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #243976;
+}
+.soc-site-footer img {
+    margin-right: 10px;
+    width: 35px;
+}
+.contact-footer {
+    width: 250px;
 }
