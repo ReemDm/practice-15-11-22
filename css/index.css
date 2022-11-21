@@ -37,7 +37,7 @@
   }
 
 /* main */
-.start-page-header, .main-start-page, .who-is-online-educition, .aside-form, .when-spend-lesson, .what-studens-like-us, .descrition-online-school, .license, .answer {
+.start-page-header, .main-start-page, .who-is-online-educition, .aside-form, .when-spend-lesson, .what-studens-like-us, .descrition-online-school, .license, .answer, .contact-article {
     max-width: 1200px;
     margin: auto;
 }
@@ -722,4 +722,98 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+/* contact form */
+.contact-section {
+    margin-top: 80px;
+}
+.contact-article {
+    display: flex;
+    justify-content: space-between;
+    background: url(../assets/bg/bg\ contact\ form\ 2.svg) right bottom no-repeat;
+    height: 600px;
+}
+.card-contact-conteiner {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background: url(../assets/bg/bg\ contact\ form.svg) left top no-repeat;
+}
+.heading-contact-conteiner {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.card-contact-form {
+    margin-top: 110px;
+    width: 350px;
+    height: 420px;
+    padding: 35px 25px;
+    background: #FFFFFF;
+    box-shadow: 5px 15px 40px rgba(30, 35, 66, 0.15);
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact-input {
+    border-radius: 32px;
+}
+.input-div {
+    margin-bottom: 20px;
+    height: 55px;
+}
+.input-div img {
+    width: 55px;
+}
+.button-send-contact {
+    background: linear-gradient(26.5deg, #4271DF 16.72%, #789CF1 95.45%);
+    border-radius: 32px;
+    padding: 22px 33px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 118%;
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+.agree-text {
+    margin-top: 20px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #9E9E9E;
+    text-align: center;
+}
+.agree-text a {
+    color: #9E9E9E;
+}
+.h2-contact {
+    font-family: 'ALS Schlange Sans';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 103%;
+    color: #243976;
+}
+.heading-contact {
+    width: 515px;
+}
+.h2-contact span {
+    background: linear-gradient(26.5deg, #4271DF 16.72%, #789CF1 95.45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.discription-heading-contact {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 103.2%;
+    color: #243976;
 }
